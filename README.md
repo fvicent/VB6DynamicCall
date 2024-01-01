@@ -3,7 +3,7 @@ Dynamic argument passing and function calls for VB6.
 
 # Rationale
 
-Functions are not first-class citizens in VB6. All you have is the `AddressOf` keyword in order to get a pointer to a function (specially useful for interfacing with the Win32 API), but there is no simple way to call a function by address nor to figure out the arguments passed to that function at runtime. While an easy task in modern languages, a simple callback mechanism implementation in VB6 leads to boilerplate code and weird workarounds. VB6DynamicCall aims to overcome these limitations.
+Functions are not first-class citizens in VB6. All you have is the `AddressOf` keyword in order to get a pointer to a function (especially useful for interfacing with the Win32 API), but there is no simple way to call a function by address nor to figure out the arguments passed to that function at runtime. While an easy task in modern languages, a simple callback mechanism implementation in VB6 leads to boilerplate code and weird workarounds. VB6DynamicCall aims to overcome these limitations.
 
 # Usage
 
